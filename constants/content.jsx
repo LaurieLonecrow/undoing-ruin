@@ -1,0 +1,5 @@
+export const homeContent =
+  { description: `
+    1st V.E.R.S is dedicated to promoting ecological resilience in and around the built environment by normalizing the implementation of conservation landscaping. We believe it is necessary to shift the dominant and antiquated paradigm of input-heavy monocultures to biodiverse and functional environments. Emergent design, professional low-impact installation and maintenance provides bountiful living landscapes that require fewer inputs while yielding greater abundance at a time of novel ecological destruction.`,
+    lorem: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+  };
