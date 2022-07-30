@@ -8,9 +8,7 @@ export default function Header() {
   return (
     <>
     <HeaderBackground>
-      <Link href='/'>
-      <Title color="white" title="Undoing Ruin"/>
-      </Link>
+      <Title color="white" title="Undoing Ruin" href="/"/>
       <Admin/>
       <NavBar />
     </HeaderBackground>

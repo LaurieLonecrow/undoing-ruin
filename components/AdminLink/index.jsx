@@ -6,7 +6,7 @@ export default function Admin() {
   return (
     <>
   <AdminLink>
-    <Link href='/blog'>
+    <Link href='/login'>
       <MenuItem>
       <MenuText>Admin</MenuText>
       </MenuItem>

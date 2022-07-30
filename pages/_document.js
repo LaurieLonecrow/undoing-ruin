@@ -32,6 +32,8 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
         <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"></link>
         </Head>
         <body>
           <Main />

@@ -31,7 +31,7 @@ export const Container = styled.div`
   background-color: ${props => props.black ? "black" : "white"};
   padding: ${props => props.padding};
   width: 100vw;
-  height: 100vh;
+  height: ${props => props.height ? "100vh" : "fit-content"};
   position: relative;
   @media screen and (max-width: 768px) {
     overflow-y: scroll;

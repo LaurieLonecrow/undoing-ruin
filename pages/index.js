@@ -7,13 +7,12 @@ import { homeContent } from "../constants/content";
 
 export default function Home() {
   return (
-    <Container>
-    <Header/>
+    <>
     <Container black>
-    <HeaderImage position={'center'} edge={'550px 0 220px 0 black inset'} url="https://res.cloudinary.com/lonecrow/image/upload/v1658537037/Undoing-Ruin/IMG_3905_iwr40w.jpg"/>
+    <HeaderImage position={'center'} edge={'550px 0 220px 0 black inset'} url="https://res.cloudinary.com/lonecrow/image/upload/v1659218342/Undoing-Ruin/flowers_vsilou.jpg"/>
     <Text top={'50px'} color={"gold"} width={'50%'} content={homeContent.description}/>
     </Container>
-    <Container>
+    <Container height>
     <Text top={'100px'} right={"20px"} color={"black"} width={'50%'} content={homeContent.lorem}/>
     <Text top={'100px'} color={"white"} width={'50%'} content={homeContent.lorem}/>
     </Container>
@@ -21,7 +20,6 @@ export default function Home() {
     <HeaderImage position={'45% 25%'} edge={'50px 50px 220px 0 black inset'} url="https://res.cloudinary.com/lonecrow/image/upload/v1658857695/Undoing-Ruin/IMG_1893_uti9tr.jpg"/>
     <Text top={'100px'} color={"white"} width={'100%'} content={homeContent.lorem}/>
     </Container>
-    <Footer/>
-    </Container>
+    </>
   );
 }
