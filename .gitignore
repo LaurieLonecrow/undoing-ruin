@@ -27,7 +27,6 @@ yarn-error.log*
 
 # local env files
 .env
-.json
 .env*.local
 /firebase-admins-key.json
 
