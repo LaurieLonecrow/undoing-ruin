@@ -3,7 +3,7 @@ import { Container } from "../../styles/GlobalStyles"
 
 export default function Blog() {
   return (
-    <Container height>
+    <Container height padding={'200px 20px 0'}>
     <h1>
       Blog
     </h1>

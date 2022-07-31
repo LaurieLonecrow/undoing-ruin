@@ -12,7 +12,7 @@ export const MenuItem = styled.div`
 
 export const MenuText = styled.h2`
   color: white;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Josefin Sans', cursive;
   &:hover {
     color: gold;
     opacity: .8;

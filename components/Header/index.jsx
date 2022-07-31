@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { HeaderBackground } from './HeaderStyles';
+import { HeaderBackground} from './HeaderStyles';
+import HeaderImage from '../HeaderImage';
 import Title from '../Title';
 import NavBar from '../NavBar';
 import Admin from '../AdminLink';
