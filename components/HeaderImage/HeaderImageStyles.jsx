@@ -15,7 +15,7 @@ filter: ${props => props.gray};
   position: relative;
   width: 100%;
   box-shadow: none;
-  background-size: contain;
+  background-size: 800px;
 
   } 
 `
