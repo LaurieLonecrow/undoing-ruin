@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const HeaderImageContainer = styled.div`
+background-attachment: fixed;
 background-image: url(${props => props.url});
 background-position: ${props => props.position};
 background-size: cover;
