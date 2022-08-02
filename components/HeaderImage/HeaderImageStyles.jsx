@@ -16,8 +16,23 @@ filter: ${props => props.gray};
   width: 100%;
   box-shadow: none;
   background-size: 800px;
-  background-attachment: scroll;
+  // background-attachment: scroll;
 
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(photos/2452.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   } 
 `
 export const Image = styled.img`
