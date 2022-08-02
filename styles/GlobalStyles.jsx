@@ -42,6 +42,11 @@ export const Container = styled.div`
 export const FlexSectionRow = styled.section`
   display: flex;
   gap: 20px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+
+  }
 `
 
 export const TitleText = styled.h1`

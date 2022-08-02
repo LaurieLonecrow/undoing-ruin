@@ -17,7 +17,7 @@ padding: 40px 0 0;
 width: 50%;
 position: relative;
   @media screen and (max-width: 768px) {
-    overflow-y: scroll;
+    width: 100%;
 
   }
 
