@@ -18,7 +18,6 @@ filter: ${props => props.gray};
   background-size: 800px;
   background-attachment: scroll;
 
-  
   } 
 `
 export const Image = styled.img`
