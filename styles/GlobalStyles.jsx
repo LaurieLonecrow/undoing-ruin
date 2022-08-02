@@ -39,6 +39,11 @@ export const Container = styled.div`
   }
 
 ` 
+export const FlexSectionRow = styled.section`
+  display: flex;
+  gap: 20px;
+`
+
 export const TitleText = styled.h1`
   color: ${props => props.color};
   font-family: 'Koulen', cursive;

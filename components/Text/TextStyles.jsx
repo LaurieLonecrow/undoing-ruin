@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const TextContent = styled.div`
 font-family: 'Josefin Sans', sans-serif;
-font-size: 1.5rem;
 text-align: left;
 padding: 0 40px;
 white-space: pre-wrap;
@@ -24,11 +23,3 @@ width: ${props => props.width};
 export const TextDecoration = styled.h1`
 color: ${props => props.color};
 `
-
-// export const TextDecoration = styled.h1`
-// background: ${props => props.color};
-// -webkit-background-clip: text;
-// -webkit-text-fill-color: transparent;
-// -webkit-text-stroke-color: ${props => props.stroke};
-// -webkit-text-stroke-width: 1px;
-// `
