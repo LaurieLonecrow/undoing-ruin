@@ -16,6 +16,7 @@ filter: ${props => props.gray};
   width: 100%;
   box-shadow: none;
   background-size: 800px;
+  background-attachment: scroll;
 
   } 
 `
