@@ -1,4 +1,5 @@
 import { Layout } from '../layout/Layout';
+import { AuthUserProvider } from '../context/AuthUserContext';
 import GlobalStyles from '../styles/GlobalStyles'
 
 export default function MyApp({ Component, pageProps }) {
@@ -7,7 +8,9 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <GlobalStyles/>
       <Layout>
-        <Component {...pageProps} />
+        <AuthUserProvider>
+          <Component {...pageProps} />
+        </AuthUserProvider>
       </Layout>
     </>
   );

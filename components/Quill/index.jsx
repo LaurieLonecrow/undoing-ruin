@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useQuill } from "react-quilljs";
+import 'quill/dist/quill.snow.css';
 
 export default function Quill({ name, defaultValue }) {
   const { quill, quillRef } = useQuill();
