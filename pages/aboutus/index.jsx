@@ -1,5 +1,5 @@
 import ImageGallery from "../../components/ImageGallery";
-import { Container } from "../../styles/GlobalStyles";
+import { Container, FlexSectionRow } from "../../styles/GlobalStyles";
 
 export default function About() {
   return (
@@ -7,7 +7,9 @@ export default function About() {
     <h1>
       About Us
     </h1>
+    <FlexSectionRow>
     <ImageGallery/>
+    </FlexSectionRow>
     </Container>
   )
   }

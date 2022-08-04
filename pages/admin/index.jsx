@@ -1,10 +1,10 @@
-import { Container } from "../../styles/GlobalStyles";
+import { Container } from "../../styles/GlobalStyles"
 
-export default function Contact() {
+export default function Admin() {
   return (
     <Container height="true" padding={'200px 20px 0'}>
     <h1>
-      Contact Us
+      Admin
     </h1>
     </Container>
   )

@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <Container black>
     <HeaderImage position={'center'} edge={'550px 0 220px 0 black inset'} url="https://res.cloudinary.com/lonecrow/image/upload/v1659218342/Undoing-Ruin/flowers_vsilou.jpg"/>
-    <Text top={'100px'} color={"gold"} width={'50%'} content={homeContent.description}/>
+    <Text top={'120px'} color={"gold"} width={'50%'} content={homeContent.description}/>
     </Container>
     <Container padding={'40px'}>
       <FlexSectionRow>

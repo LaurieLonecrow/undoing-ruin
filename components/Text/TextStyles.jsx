@@ -12,7 +12,7 @@ right: ${props => props.right};
 width: ${props => props.width};
 @media screen and (max-width: 768px) {
   position: relative;
-  padding: 20px 40px;
+  padding: 20px 20px;
   top: 0;
   left: 0;
   right: 0;
