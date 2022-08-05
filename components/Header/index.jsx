@@ -1,6 +1,4 @@
-import Link from 'next/link';
-import { Leaf, HeaderBackground} from './HeaderStyles';
-import Title from '../Title';
+import { HeaderBackground} from './HeaderStyles';
 import NavBar from '../NavBar';
 import Admin from '../AdminLink';
 import HomeHeader from '../HomeHeader';

@@ -6,7 +6,7 @@ export default function Quill({ name, defaultValue }) {
   const { quill, quillRef } = useQuill();
   const inputRef = useRef();
 
-  const handleChange = (e) => {
+  const handleChange = () => {
     if (inputRef) {
       inputRef.current.value = quill.root.innerHTML;
     }

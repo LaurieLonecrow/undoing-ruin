@@ -1,10 +1,7 @@
-import { CardContainer, Container, FlexSectionRow } from "../styles/GlobalStyles";
-import Header from "../components/Header";
+import { Container, FlexSectionRow } from "../styles/GlobalStyles";
 import HeaderImage from "../components/HeaderImage";
 import Text from "../components/Text";
-import Footer from "../components/Footer";
 import { homeContent } from "../constants/content";
-import HomeHeader from "../components/HomeHeader";
 import InfoTile from "../components/TextTile";
 
 export default function Home() {
