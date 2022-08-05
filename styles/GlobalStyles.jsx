@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
 export default GlobalStyles;
 
 export const Container = styled.div`
-  background-color: ${props => props.black ? "black" : "white"};
+  background-color: ${props => props.black ? "#015045" : "white"};
   padding: ${props => props.padding};
   width: 100vw;
   height: ${props => props.height ? "100vh" : "fit-content"};

@@ -22,4 +22,5 @@ width: ${props => props.width};
 
 export const TextDecoration = styled.h1`
 color: ${props => props.color};
+
 `

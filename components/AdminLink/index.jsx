@@ -8,7 +8,7 @@ export default function Admin() {
   <AdminLink>
     <Link href='/login'>
       <MenuItem>
-      <MenuText>Admin</MenuText>
+      <MenuText>admin</MenuText>
       </MenuItem>
     </Link>
   </AdminLink> 

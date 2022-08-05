@@ -1,10 +1,12 @@
 import styled from "styled-components"
 
 export const HeaderBackground = styled.div`
-  background: linear-gradient(black, rgba(0,0,0,0.5));
+  background: #F3F3E3;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   width: 100vw;
   height: fit-content;
-  opacity: .8;
   padding: 20px;
   position: fixed;
   top: 0px;

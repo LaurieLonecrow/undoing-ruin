@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.2.3",
+    "@styled-icons/simple-icons": "^10.45.0",
     "dotenv": "^16.0.1",
     "firebase": "^9.9.1",
     "next": "12.2.3",

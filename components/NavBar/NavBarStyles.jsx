@@ -1,9 +1,11 @@
 import styled from "styled-components"
 
-export const NavBarBar = styled.div`
+export const NavRow = styled.div`
+  display: inline-block;
+`
+export const NavBarBar = styled.span`
   display: flex;
   justify-content: center;
-  width: 100%;
 `
 
 export const MenuItem = styled.div`
@@ -11,13 +13,15 @@ export const MenuItem = styled.div`
 `
 
 export const MenuText = styled.h2`
-  color: white;
+  color: #015045;
   font-family: 'Josefin Sans', cursive;
   &:hover {
-    color: gold;
-    opacity: .8;
+    color: #5d6f66;
     cursor: pointer;
     transform: translateY(-2px);
 
   }
+  @media screen and (max-width: 768px){
+    font-size: 2rem;
+}
 `
