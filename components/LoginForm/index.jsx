@@ -25,7 +25,7 @@ export default function LoginForm() {
 
   useEffect(() => {
     if (!loading && !authUser)
-      router.push('/')
+      router.push('/login')
   }, [authUser, loading])
   
   return (
