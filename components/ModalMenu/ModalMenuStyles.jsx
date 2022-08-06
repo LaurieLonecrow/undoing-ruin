@@ -20,7 +20,7 @@ to {
 `;
 
 export const ModalWrapper = styled.div`
-position: absolute;
+position: fixed;
 display: flex;
 flex-direction: column;
 top: 0;
