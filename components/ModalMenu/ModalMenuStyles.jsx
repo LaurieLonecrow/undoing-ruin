@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from 'styled-components'
 import { X } from '@styled-icons/heroicons-solid';
 
-const slideIn = keyframes`
+const slideHidden = keyframes`
 from {
   transform: translateX(0px);
 }
@@ -10,12 +10,14 @@ to {
 }
 `;
 
-const slideOut = keyframes`
+const slideVisible = keyframes`
 from {
     transform: translateX(-200px);
+
 }
 to {
     transform: translateX(0px);
+
 }
 `;
 
@@ -25,7 +27,7 @@ display: flex;
 flex-direction: column;
 top: 0;
 left: 0;
-width: 50vw;
+width: 200px;
 height: 100vh;
 background-color: #fff;
 border-radius: 8px;
@@ -33,7 +35,7 @@ z-index: 100;
 padding: 48px 0;
 cursor: default;
 overflow-x: hidden;
-animation: ${props => props.animation ? css`${slideIn} .5s reverse;`: css`${slideOut} .5s linear;`};
+animation: ${props => props.animation ? css`${slideVisible} .5s linear forwards;`: css`${slideHidden} .5s linear forwards;`};
 `
 
 export const Close = styled(X)`
