@@ -1,13 +1,13 @@
-import { NavRow, NavBarBar, MenuItem, MenuText } from './NavBarStyles'
+
+import { NavRow, NavBarBar, MenuItem, MenuText } from './NavBarStyles';
 import Link from 'next/link';
+import { menuItems } from '../../constants/content';
 
 export default function NavBar() {
-  const menuItems = [
-    'about us',
-    'blog',
-    'contact us',
-  ];
+  
+
   return (
+    <>
     <NavRow>
     <NavBarBar>
     {menuItems.map((item, index) => (
@@ -19,5 +19,7 @@ export default function NavBar() {
     ))}
     </NavBarBar>
     </NavRow>
+
+    </>
   );
 }

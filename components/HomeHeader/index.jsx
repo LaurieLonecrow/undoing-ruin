@@ -5,8 +5,8 @@ export default function HomeHeader() {
   return (
     <>
     <Wrapper>
-      <Title color="#015045" title="undoing ruin" href="/"/>
     <Leaf/>
+      <Title color="#015045" title="undoing ruin" href="/"/>
     </Wrapper>
     </>
  );

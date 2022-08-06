@@ -27,35 +27,32 @@ export const TileButton = styled.button`
 position: absolute;
 bottom: 0;
 width: 100%;
-  align-items: center;
-  background-color: #5d6f66;
-  // background-image: linear-gradient(#5d6f66, #015045);
-  border-width: 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
-  box-sizing: border-box;
-  color: #F3F3E3;
-  font-family: 'Josefin Sans', cursive;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  font-size: 2.5rem;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  overflow: hidden;
-  padding: 40px 32px;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all 150ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+align-items: center;
+background-color: #5d6f66;
+border-width: 0;
+box-sizing: border-box;
+color: #F3F3E3;
+font-family: 'Josefin Sans', cursive;
+cursor: pointer;
+display: inline-flex;
+flex-direction: column;
+font-size: 2.5rem;
+justify-content: center;
+line-height: 1;
+margin: 0;
+outline: none;
+overflow: hidden;
+padding: 40px 32px;
+text-align: center;
+text-decoration: none;
+transform: translate3d(0, 0, 0);
+transition: all 150ms;
+vertical-align: baseline;
+white-space: nowrap;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
  
-
 &:hover {
   box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
   opacity: .85;
@@ -68,6 +65,6 @@ width: 100%;
   box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
 }
 @media screen and (max-width: 768px){
-    height: 48px;
+    height: 64px;
 }
 `

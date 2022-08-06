@@ -2,17 +2,10 @@ import styled from "styled-components"
 
 
 export const ImageGrid = styled.div`
-// display: grid;
-// grid-template-columns: repeat(3, 1fr);
-// grid-template-rows: repeat(3, 1fr);
-// grid-column-gap: 2rem;
-// grid-row-gap: 2rem;
 display: flex;
 flex-wrap: wrap;
 gap: 2rem;
 justify-content: center;
-
-
 `
 
 export const ImageContainer = styled.div`

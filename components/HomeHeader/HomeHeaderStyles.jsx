@@ -13,7 +13,7 @@ export const Wrapper = styled.span`
 `
 
 export const Leaf = styled(Overleaf)`
-  width: 3rem;
+  width: 4rem;
   color: #015045;
   margin-left: 1rem;
   @media screen and (max-width: 768px){

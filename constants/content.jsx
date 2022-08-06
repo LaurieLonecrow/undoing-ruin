@@ -14,4 +14,10 @@ export const imageGallery = [
   'https://res.cloudinary.com/lonecrow/image/upload/v1659120702/Undoing-Ruin/IMG_3625_b5pewf.jpg',
   'https://res.cloudinary.com/lonecrow/image/upload/v1659120700/Undoing-Ruin/IMG_3469_qkmqrp.jpg',
   'https://res.cloudinary.com/lonecrow/image/upload/v1658861795/Undoing-Ruin/IMG_3860_qvplql.jpg'
-]
+];
+
+export const menuItems = [
+  'about us',
+  'blog',
+  'contact us',
+];
