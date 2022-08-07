@@ -6,7 +6,7 @@ import Admin from '../AdminLink';
 import HomeHeader from '../HomeHeader';
 
 export default function Header() {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState();
   const [media, setMedia] = useState(false);
 
   useEffect(() => {
@@ -17,11 +17,11 @@ export default function Header() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  
     function show() {
-        return setShowModal(!showModal)
+      setShowModal(!showModal)
     }
-   
+
   return (
     <>
     <HeaderBackground>
@@ -33,8 +33,7 @@ export default function Header() {
       </> :
       <MenuButton onClick={()=> show()}><ModalIcon/></MenuButton> }
     </HeaderBackground>
-      { showModal ? <ModalMenu animation={true} onClick={()=> show()}/> : 
-                    <ModalMenu animation={false} display={'none'} onClick={()=> show()}/>}
+      { showModal ? <ModalMenu animation={true} onClick={()=> show()}/> : null}
     </>
   );
 }
